@@ -1,0 +1,120 @@
+body{
+    background-color: #4b8a20;
+    font-family: 'Open Sans', sans-serif;
+}
+/*SECCION IMAGEN*/
+.imagen{
+    width: 100%;
+}
+
+.google{
+    width: 100%;
+    height: 50%;
+}
+.logo{
+    width: 50px;
+    float: left; width: 50px;
+    padding: 10px;
+}
+
+/*MENU*/
+.menu-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+  
+.menu-li {
+    float: left;
+}
+  
+.menu-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.menu-li a:hover {
+    background-color: gray;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedor{
+    width: 85%;
+    height: 200%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    background-color: white; 
+}
+
+#contenido{
+    width: 1000px;
+    height: 200%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#contenido h1{
+    font-size: x-large;
+    line-height: 50px;
+}
+
+aside{
+    width: 250px;
+    height: 500px;
+    margin-top: 10px;
+    float: right;
+}
+
+footer{
+    clear: both;
+}
+
+footer h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+/*RECOMENDACIONES CARDS*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.4s;
+    width: 80%;
+    height: 57%;
+    padding-top: 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+.sumit{
+    width: 100px;
+    height: 45px;
+    font-size: 15px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.final{
+    padding: 100px;
+    display: ;
+}
